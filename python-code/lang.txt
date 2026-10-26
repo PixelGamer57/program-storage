@@ -1,0 +1,48 @@
+# game?
+# vars
+set 1 10
+set 2 80
+set 3 95
+set 4 79
+set 5 10
+set 6 2
+set 7 2
+inp 8
+jump 31
+#
+addram 9 1
+addram 10 2
+add 10 -1
+jif 10 0 25
+jump 22
+say 4
+jump 15
+jiq 9 6 18
+jump 23
+jiq 10 7 20
+say 3
+jump 15
+say 5
+add 9 -1
+jif 9 0 29
+jump 14
+jump 10
+#
+jif 8 0 13
+jif 8 1 37
+jif 8 2 40
+jif 8 3 43
+jif 8 4 46
+end
+#
+add 6 1
+jump 13
+#
+add 7 1
+jump 13
+#
+add 7 -1
+jump 13
+#
+add 6 -1
+jump 13

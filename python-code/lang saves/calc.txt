@@ -1,0 +1,27 @@
+inp 1
+inp 2
+inp 3
+jump 25
+# add
+addram 2 3
+read 2
+end
+# sub
+jif 3 0 14
+add 2 -1
+add 3 -1
+jump 10
+read 2
+end
+# mult
+addram 4 2
+add 3 -1
+jif 3 0 22
+addram 2 4
+jump 18
+read 2
+end
+# check opp
+jif 1 1 6
+jif 1 2 10
+jif 1 3 17

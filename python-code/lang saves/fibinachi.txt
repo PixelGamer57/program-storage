@@ -1,0 +1,16 @@
+# fibinachi
+inp 1
+set 2 0
+set 3 1
+jif 1 0 15
+set 4 0
+addram 4 2
+addram 4 3
+set 2 0
+addram 2 3
+set 3 0
+addram 3 4
+add 1 -1
+jump 5
+read 2
+end

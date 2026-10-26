@@ -1,0 +1,20 @@
+inp 1
+addram 2 1
+add 2 -1
+jif 2 0 7
+addram 3 1
+jump 3
+add 1 -1
+set 4 0
+addram 4 3
+set 3 0
+set 2 0
+addram 2 1
+add 2 -1
+jif 2 0 17
+addram 3 4
+jump 13
+jif 1 1 19
+jump 7
+read 4
+end
